@@ -1,0 +1,351 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font: inherit;
+    font-size: 102%;
+    vertical-align: baseline;
+    background: rgb(243, 214, 232);
+
+}
+
+
+header .logo {
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    padding: 60px 15px;
+    color: rgb(17, 16, 16);
+    border-radius: 20px;
+}
+
+header ul li a:hover,
+header ul li a.active {
+    background: rgb(252, 250, 250);
+    color: #0f0f0f;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+
+section::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+
+    z-index: 1000;
+}
+
+section img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+section img#moon {
+    mix-blend-mode: screen;
+}
+
+section img#mountains_front {
+    z-index: 10;
+}
+
+#text {
+    position: absolute;
+    right: -350px;
+    color: black;
+    white-space: nowrap;
+    font-size: 7.5vw;
+    z-index: 9;
+}
+
+#btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 40px;
+    background: #fff;
+    color: #2b1055;
+    font-size: 1.5em;
+    z-index: 9;
+    transform: translateY(100px);
+}
+
+.sec {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    padding: 100px;
+    background: #1c0522;
+}
+
+.sec h2 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: rgb(12, 12, 12);
+}
+
+.sec p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.0em;
+    color: rgb(15, 15, 15);
+}
+
+.diana {
+
+    height: 200px;
+    width: 4000px;
+    position: relative;
+
+}
+
+.diana img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    padding: 25px;
+}
+
+.biografia {
+
+    padding: 80px;
+    font-weight: bold;
+}
+
+.titulo {
+
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+
+table.cronologia {
+    margin-top: 20px;
+    border-top: 1px #d4f7ed solid;
+}
+
+table {
+    margin: 20px 0;
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+user agent stylesheet table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+body {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 15px;
+    color: #333;
+}
+
+html {
+    line-height: 1;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.sal.ascronologia.html {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font: inherit;
+    font-size: 102%;
+    vertical-align: baseline;
+    background-color: rgb(243, 214, 232);
+    text-align: center;
+
+}
+
+.Diana2 {
+    margin-top: 20px;
+    width: 400px;
+    height: 400px;
+
+}
+
+
+
+
+
+.container-menu {
+    width: 100%;
+    height: 70px;
+    background: #98b3d1;
+    padding: 0px 40px;
+}
+
+.menu {
+
+    max-width: 1200px;
+    margin: auto;
+    height: 100%;
+
+}
+
+nav {
+    height: 100%;
+}
+
+nav>ul {
+    height: 100%;
+    display: flex;
+    background: #98b3d1;
+}
+
+nav ul li {
+
+    height: 100%;
+    list-style: none;
+    position: relative;
+}
+
+nav>ul>li:first-child>a {
+    background-image: url(/imagenes/casa.png);
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px 40px;
+
+}
+
+nav>ul>li:first-child:hover>a {
+    background-image: url(/imagenes/casa.png);
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+nav>ul>li>a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: black;
+    transition: all 300ms ease;
+}
+
+nav>ul>li>a:hover {
+    transform: scale(1.1);
+    background: #0074c7;
+    box-shadow: 0px 0px 10px 0px;
+
+}
+
+#selected {
+    transform: scale(1.1);
+    background-color: #0074c7;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
+}
+
+
+.torre {
+
+    width: 1000px;
+    height: 500px;
+    padding: 20px 20px;
+    font-size: 15px;
+    line-height: 1.5;
+    background: rgb(243, 214, 232);
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, .45);
+    border-radius: 6px;
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+.torre1 {
+
+    width: 310px;
+    height: 310px;
+    float: left;
+    margin-right:10px;
+}
